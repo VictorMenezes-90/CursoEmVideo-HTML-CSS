@@ -29,7 +29,7 @@ O terceiro módulo é focado em aprofundar os conhecimentos estéticos e estrutu
 
 * Cores e Sombras: Técnicas avançadas de aplicação de cores usando RGB, RGBA e Hexadecimal, além do uso de gradientes e efeitos de sombras em textos (text-shadow) e caixas (box-shadow).
 * O Modelo de Caixas (Box Model): Entendimento profundo de como os elementos são estruturados na tela, dominando conceitos de conteúdo, preenchimento (padding), bordas (border) e margens (margin).
-* Tabelas em HTML: Criação de tabelas completas e semânticas para exibição de dados, utilizando tags como <table>, <tr>, <td>, <th>, além de escopos (thead, tbody, tfoot) e estilização com CSS.
+* Tabelas em HTML: Criação de tabelas completas e semânticas para exibição de dados, utilizando tags como table, tr, td, th, além de escopos (thead, tbody, tfoot) e estilização com CSS.
 * Layouts e Alinhamento: Primeiros passos na estruturação de layouts de páginas mais robustos, trabalhando com o posicionamento de elementos e técnicas de centralização.
 *Responsividade Inicial: Introdução aos conceitos de design responsivo, preparando as páginas para se adaptarem a diferentes tamanhos de tela e dispositivos (monitores e celulares).
 
