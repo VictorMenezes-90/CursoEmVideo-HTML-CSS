@@ -3,7 +3,7 @@ Exercícios e Desafios - Curso de HTML5 e CSS3
 Este repositório foi criado para armazenar, organizar e acompanhar o meu progresso nos exercícios, códigos de prática e desafios propostos no **Curso de HTML5 e CSS3**, ministrado pelo Professor Gustavo Guanabara na plataforma Curso em Vídeo.
 
 ------------------------------
-##  Sobre i Módulo 1
+##  Sobre o Módulo 1
 O primeiro módulo é voltado para quem está começando do zero absoluto. Ele foca em entender como a internet funciona e em criar as primeiras páginas estruturadas.
 
 * História e Funcionamento da Web: Como a internet funciona, a diferença entre cliente/servidor e a evolução do HTML5 e CSS3.
@@ -22,3 +22,15 @@ O segundo módulo dá vida e beleza às páginas estruturadas no módulo anterio
 * Modelo de Caixas (Box Model): O conceito mais importante de layout do CSS. Aprendizado prático sobre margin, padding, border, outline e técnicas de centralização de caixas.
 * Seletores e Variáveis CSS: Uso avançado de IDs e Classes, introdução a pseudo-classes (como :hover) e criação de variáveis nativas no CSS para organizar o código.
 * Projeto Prático Profissional: Desenvolvimento do zero de um site real (o famoso Site do Android), aplicando técnicas de wireframing, menus de navegação modernos, rodapés e conceitos iniciais de responsividade.
+
+------------------------------
+## Sobre o Módulo 3:
+O terceiro módulo é focado em aprofundar os conhecimentos estéticos e estruturais do desenvolvimento web. Ele introduz o trabalho avançado com cores, sombras, layouts complexos usando tabelas e o início do design responsivo.
+
+* Cores e Sombras: Técnicas avançadas de aplicação de cores usando RGB, RGBA e Hexadecimal, além do uso de gradientes e efeitos de sombras em textos (text-shadow) e caixas (box-shadow).
+* O Modelo de Caixas (Box Model): Entendimento profundo de como os elementos são estruturados na tela, dominando conceitos de conteúdo, preenchimento (padding), bordas (border) e margens (margin).
+* Tabelas em HTML: Criação de tabelas completas e semânticas para exibição de dados, utilizando tags como <table>, <tr>, <td>, <th>, além de escopos (thead, tbody, tfoot) e estilização com CSS.
+* Layouts e Alinhamento: Primeiros passos na estruturação de layouts de páginas mais robustos, trabalhando com o posicionamento de elementos e técnicas de centralização.
+*Responsividade Inicial: Introdução aos conceitos de design responsivo, preparando as páginas para se adaptarem a diferentes tamanhos de tela e dispositivos (monitores e celulares).
+
+------------------------------
