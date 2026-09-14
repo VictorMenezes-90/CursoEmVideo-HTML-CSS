@@ -62,20 +62,15 @@ header>p{
     max-width: 500px;
 }
 
-header:hover>h1{
-    letter-spacing: 5px;
-}
-
-header:hover + nav, nav:hover {
-    display: block;
-}
-
 nav{
     padding: 10px;
     padding-left: 0px;
     background-color: var(--cor6);
 
-    display: none;
+    position: sticky;
+    top: 0;
+
+    z-index: 10;
 }
 
 nav>a{
@@ -93,6 +88,8 @@ nav>a{
 nav a:hover{
     background-color: var(--cor5);
 }
+
+#Ex:hover {background-color: rgb(127, 0, 255)}
 
 main{
     margin: auto;

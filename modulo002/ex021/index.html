@@ -20,9 +20,30 @@
                 margin: 10px auto 10px auto;
                 outline: 3px dotted rgb(255,0,0);
             }
+
+            .Navegador {
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 5px 10px;
+
+                background-color:rgb(127, 0, 255);
+                border-bottom-left-radius: 15px;
+                color: white;
+                font: bold 1.25rem Arial;
+            }
+            .Navegador a{
+                margin-left: 5px;
+                color: white;
+                font: bold 0.75rem Arial;
+            }
+            .Navegador a:hover{
+                color: yellow;
+            }
         </style>
     </head>
     <body>
+        <div class="Navegador">Exercício 21 <a href="../desafio010/">Desafios</a><a href="#">Próximo Módulo</a></div>
         <h1>Exemplo de caixa box-level</h1>
         <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona na prática.</p>
     </body>

@@ -38,9 +38,33 @@
                 font-size: 0.75em;
                 color: rgb(0,0,150);
             }
+
+            .Navegador {
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 5px 10px;
+
+                background-color:rgb(127, 0, 255);
+                border-bottom-left-radius: 15px;
+                color: white;
+                font: bold 1.25rem Arial;
+            }
+            .Navegador a{
+                margin-left: 5px;
+                color: white;
+                font: bold 0.75rem Arial;
+            }
+            .Navegador a:hover{
+                color: yellow;
+            }
+
+            .Navegador a::before, .Navegador a::after {content: none;}
         </style>
     </head>
     <body>
+        <div class="Navegador">Exercício 20 <a href="../ex021">Próximo</a></div>
+
         <h1>Personalizando LINKS</h1>
 
         <ul>

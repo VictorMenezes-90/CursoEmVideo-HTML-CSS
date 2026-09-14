@@ -5,22 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gradientes em CSS</title>
         <style>
-            *{
-                /*Configurações Globais das CSS*/
-                height: 100%;
-            }
-
             body{
-                /*background-color: rgb(205, 165, 255);*/
+                /* background-color: rgb(0, 0, 255); */
                 background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(255, 200, 255), rgb(200, 160, 255));
                 background-attachment: fixed;
+            }
+
+            .Navegador {
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 5px 10px;
+
+                background-color:rgb(127, 0, 255);
+                border-bottom-left-radius: 15px;
+                color: white;
+                font: bold 1.25rem Arial;
+            }
+            .Navegador a{
+                margin-left: 5px;
+                color: white;
+                font: bold 0.75rem Arial;
+            }
+            .Navegador a:hover{
+                color: yellow;
             }
         </style>
     </head>
     <body style="margin: 0; padding: 0;">
-        <div style="margin: 0; padding: 0; width: 100%; height: fit-content; background-color:rgb(125, 0, 255); font-size: 1.25rem; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: white; text-align: center;"> Módulo 02 | Capítulo 13 | Exercício 16
-        </div>
-
+        <div class="Navegador">Exercício 16 <a href="../ex017">Próximo</a></div>
         <div style="margin-right: 10px; margin-left: 10px;">
         <h1>Testando Gradientes</h1>
         </div>
