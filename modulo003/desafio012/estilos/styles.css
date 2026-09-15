@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body { 
+    min-height: 100vh;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    padding: 5px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 6vw;
+    font-family: 'Passion One', fantasy;
+    font-variant: small-caps;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-size: 3vw;
+    font-family: 'Sriracha', fantasy;
+    line-height: 2em;
+}
+
+.Text-Section {
+    padding: 10vh 0 10vh 50px;
+    background-color: white;
+    color: black;
+}
+
+.Image-Section {
+    background-color: purple;
+    color: white;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.5), inset -20px -20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.Image-Section p {
+    text-shadow: 1px 1px 3px black;
+    backdrop-filter: blur(5px);
+}
+
+.Image-Section#Joaninha {
+    background: no-repeat url(../imagens/background001.jpg) right center / cover fixed;
+}
+
+.Image-Section#Carta {
+    background: no-repeat url(../imagens/background002.jpg) right center / cover fixed;
+}
+
+.Image-Section p{
+    padding: 10vh 50px;
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.25);
+}
